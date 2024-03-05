@@ -9,10 +9,14 @@ const navbar = () => {
 
         <div className={styles.ulBox}>
           <ul className={styles.ul}>
-            <li className={styles.li}>Calm Business</li>
-            <li className={styles.li}>Connect</li>
-            <li className={styles.li} id={styles.tryIt}>
-              Try Calm for free
+            <li className={[styles.li, styles.li1].join(" ")}>
+              <p>Calm Business</p>
+            </li>
+            <li className={[styles.li, styles.li2].join(" ")}>
+              <p>Connect</p>
+            </li>
+            <li className={[styles.li, styles.tryIt, styles.li3].join(" ")}>
+              <p>Try Calm for free</p>
             </li>
           </ul>
         </div>

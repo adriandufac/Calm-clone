@@ -1,6 +1,10 @@
+li p {
+    color: white;
+    margin: 0;
+}
 .mainContainer {
-    position: fixed;
     width: 100%;
+    position:fixed ;
 }
 .nav {
     display: flex;
@@ -16,6 +20,7 @@
     height: fit-content;
     margin-top: 5px;
     padding: 10px;
+    color: white;
 } 
 
 
@@ -24,17 +29,20 @@
 }
 
 .li {
-    color: white;
+    background-color: transparent;
     margin-left: 40px;
     list-style: none;
     padding: 10px;
+    border-radius: 100px;
+    opacity: 1;
+    transition: background 0.5s; 
 }
 
 .li:hover {
+    background: rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
-#tryIt{
+.tryIt{
     border: solid white 2px;
-    border-radius: 100px;
 }
