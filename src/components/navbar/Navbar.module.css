@@ -1,0 +1,40 @@
+.mainContainer {
+    position: fixed;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: fit-content;
+    margin-top: 5px;
+    padding: 10px;
+} 
+
+
+.ul {
+    display: flex;
+}
+
+.li {
+    color: white;
+    margin-left: 40px;
+    list-style: none;
+    padding: 10px;
+}
+
+.li:hover {
+    cursor: pointer;
+}
+
+#tryIt{
+    border: solid white 2px;
+    border-radius: 100px;
+}
